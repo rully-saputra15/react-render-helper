@@ -1,6 +1,6 @@
 {
-  "name": "react-when",
-  "version": "1.0.0",
+  "name": "react-render-helper",
+  "version": "1.0.1",
   "description": "Simple package to make your conditinal rendering more elegant",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
