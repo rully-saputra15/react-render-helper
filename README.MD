@@ -16,6 +16,10 @@
 
 ```bash
 npm install react-render-helper
+
+pnpm install react-render-helper
+
+yarn add react-render-helper
 ```
 
 ## Usage

@@ -1,7 +1,7 @@
 {
   "name": "react-render-helper",
-  "version": "1.0.1",
-  "description": "Simple package to make your conditinal rendering more elegant",
+  "version": "1.0.2",
+  "description": "Simplify your conditional rendering within React with elegance and intuitiveness with ease.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup ./src"
@@ -19,6 +19,12 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "keywords": [
+    "react",
+    "conditional rendering",
+    "helper",
+    "jsx"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
