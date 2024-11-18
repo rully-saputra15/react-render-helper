@@ -24,8 +24,10 @@ yarn add react-render-helper
 
 ## Usage
 
+### without fallback
+
 ```
-import React from 'react';
+import React from "react"
 import { Show } from 'react-render-helper';
 
 const App = () => {
@@ -34,6 +36,25 @@ const App = () => {
   return (
     <div>
       <Show when={showText}>
+        <h1>Hello World</h1>
+      </Show>
+    </div>
+  );
+};
+```
+
+### with fallback
+
+```
+import React from "react"
+import { Show } from 'react-render-helper';
+
+const App = () => {
+  const showText = false;
+
+  return (
+    <div>
+      <Show when={showText} fallback={<h1>Oops...</h1>}>
         <h1>Hello World</h1>
       </Show>
     </div>
