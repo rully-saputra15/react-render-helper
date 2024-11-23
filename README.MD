@@ -61,3 +61,22 @@ const App = () => {
   );
 };
 ```
+
+### enable animation
+
+```
+import React from "react"
+import { Show } from 'react-render-helper';
+
+const App = () => {
+  const showText = false;
+
+  return (
+    <div>
+      <Show when={showText} fallback={<h1>Oops...</h1>}>
+        <h1>Hello World</h1>
+      </Show>
+    </div>
+  );
+};
+```
