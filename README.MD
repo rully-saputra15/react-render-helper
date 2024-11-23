@@ -73,7 +73,7 @@ const App = () => {
 
   return (
     <div>
-      <Show when={showText} fallback={<h1>Oops...</h1>}>
+      <Show when={showText} animated fallback={<h1>Oops...</h1>}>
         <h1>Hello World</h1>
       </Show>
     </div>
