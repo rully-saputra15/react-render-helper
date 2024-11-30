@@ -1,6 +1,6 @@
 {
   "name": "react-render-helper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simplify your conditional rendering within React with elegance and intuitiveness with ease.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
